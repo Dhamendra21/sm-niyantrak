@@ -9,7 +9,7 @@ import AlertsPanel from './AlertsPanel';
 
 const Dashboard = () => {
   return (
-    <div className="p-6 bg-gradient-to-br from-gray-900 via-gray-900 to-gray-800 min-h-full">
+    <div className="p-6 bg-gradient-to-br from-gray-900 via-gray-900 to-gray-800">
       {/* Welcome Header */}
       <div className="mb-8">
         <h1 className="text-3xl font-bold text-white mb-2">Farm Dashboard</h1>

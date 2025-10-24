@@ -6,7 +6,7 @@ import Header from './Header';
 
 const Layout = () => {
   return (
-    <div className="flex h-screen bg-gray-900">
+    <div className="flex bg-gray-900">
       {/* Sidebar */}
       <Sidebar />
       
@@ -16,7 +16,7 @@ const Layout = () => {
         <Header />
         
         {/* Dynamic Content */}
-        <main className="flex-1 overflow-y-auto">
+        <main className="flex-1 overflow-y-auto h-screen">
           <Outlet />
         </main>
       </div>
